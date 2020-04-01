@@ -19,10 +19,10 @@ cordova.plugins.fileOpener2.open(
 
 ```shell
 - Cordova
-$ cordova plugin add https://github.com/dsileikaevry/cordova-plugin-file-opener2
+$ cordova plugin add https://github.com/dsileikaevry/cordova-plugin-file-opener2.git#master
 
 - Oracle JET
-$ ojet add plugin https://github.com/dsileikaevry/cordova-plugin-file-opener2
+$ ojet add plugin https://github.com/dsileikaevry/cordova-plugin-file-opener2.git#master
 ```
 
 ### Optional variables
@@ -30,7 +30,11 @@ $ ojet add plugin https://github.com/dsileikaevry/cordova-plugin-file-opener2
 This plugin requires the Android support library v4. From release `2.1.0` the version of this can be set at installation. The minimum version is `24.1.0`. Default value is `27.+`. [Check out the latest version](https://developer.android.com/topic/libraries/support-library/revisions.html).
 
 ```shell
-$ cordova plugin add https://github.com/dsileikaevry/cordova-plugin-file-opener2  --variable ANDROID_SUPPORT_V4_VERSION="27.+"
+- Cordova 
+$ cordova plugin add https://github.com/dsileikaevry/cordova-plugin-file-opener2.git#master  --variable ANDROID_SUPPORT_V4_VERSION="27.+"
+
+- Oracle JET 
+$ ojet add plugin https://github.com/dsileikaevry/cordova-plugin-file-opener2.git#master  --variable ANDROID_SUPPORT_V4_VERSION="27.+"
 ```
 
 If you are using the `cordova-android-support-gradle-release` plugin it should match the value you have set there.
