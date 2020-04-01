@@ -18,7 +18,11 @@ cordova.plugins.fileOpener2.open(
 ## Installation
 
 ```shell
-$ cordova plugin add cordova-plugin-file-opener2
+- Cordova
+$ cordova plugin add https://github.com/dsileikaevry/cordova-plugin-file-opener2
+
+- Oracle JET
+$ ojet add plugin https://github.com/dsileikaevry/cordova-plugin-file-opener2
 ```
 
 ### Optional variables
